@@ -1,8 +1,8 @@
-import ImageCarousel from "./ImageCarousel";
+import ImageCarousel from "./components/ImageCarousel";
 
 export default function Home() {
   return (
-    <div className="px-4">
+    <div className=" h-96">
       <ImageCarousel />
     </div>
   );
