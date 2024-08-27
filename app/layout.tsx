@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en" data-theme="wireframe">
       
-      <body className={inter.className}>
+      <body className={`${inter.className} relative`}>
         <NavBar />
         <main>{children}</main>
       </body>
